@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg"
+import "./App.css"
+import Hello from "./components/Hello"
+import Maths from "./components/Maths"
 
 const openUrl = url => window.open(url, "_blank", "noreferrer")
 
@@ -24,25 +26,70 @@ function Vorm() {
     <div className="App-form">
       <form>
         <label for="fname">First name: </label>
-        <input type="text" id="fname" name="fname" value="John" /> <br />
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          value="John"
+        />{" "}
+        <br />
         <label for="lname">Last name: </label>
-        <input type="text" id="lname" name="lname" value="Doe" /> <br />
+        <input
+          type="text"
+          id="lname"
+          name="lname"
+          value="Doe"
+        />{" "}
+        <br />
         <label for="password">Password: </label>
-        <input type="password" id="password" name="password" /> <br />
-        <input type="submit" value="Submit" />
+        <input
+          type="password"
+          id="password"
+          name="password"
+        />{" "}
+        <br />
+        <input
+          type="submit"
+          value="Submit"
+        />
       </form>
-    </div> 
+    </div>
   )
 }
 
 function CTANupp() {
-  return(
-    <button 
+  return (
+    <button
       className="button"
-      onClick={() => openUrl("https://github.com/Exortile/rakenduste-prog-2023")}
+      onClick={() =>
+        openUrl("https://github.com/Exortile/rakenduste-prog-2023")
+      }
     >
       Repo
     </button>
+  )
+}
+
+// eslint-disable-next-line
+function OtherApp() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img
+          src={logo}
+          className="App-logo"
+          alt="logo"
+        />
+
+        <p>
+          <u>Sten-Kristjan Prantsu</u>
+        </p>
+
+        <Huvid />
+        <Vorm />
+        <CTANupp />
+      </header>
+    </div>
   )
 }
 
@@ -50,17 +97,20 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* {<Hello name="Sten" />
+        <Hello name="Vello" />
+        <Hello
+          name="Sille"
+          age={20}
+          school="TLU"
+        />} */}
 
-        <p><u>Sten-Kristjan Prantsu</u></p>
-        
-        <Huvid />
-        <Vorm />
-        <CTANupp />
-        
+        <Maths />
+        <Maths />
+        <Maths />
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
