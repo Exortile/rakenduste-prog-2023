@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/rakenduste-prog-2023/static/css/main.277ffeb1.css",
+    "main.js": "/rakenduste-prog-2023/static/js/main.0adaaf88.js",
+    "static/js/787.5a44aa41.chunk.js": "/rakenduste-prog-2023/static/js/787.5a44aa41.chunk.js",
+    "static/media/logo.svg": "/rakenduste-prog-2023/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/rakenduste-prog-2023/index.html",
+    "main.277ffeb1.css.map": "/rakenduste-prog-2023/static/css/main.277ffeb1.css.map",
+    "main.0adaaf88.js.map": "/rakenduste-prog-2023/static/js/main.0adaaf88.js.map",
+    "787.5a44aa41.chunk.js.map": "/rakenduste-prog-2023/static/js/787.5a44aa41.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.277ffeb1.css",
+    "static/js/main.0adaaf88.js"
+  ]
+}
